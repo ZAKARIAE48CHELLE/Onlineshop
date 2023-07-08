@@ -1,0 +1,184 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: inherit;
+    align-items: center;
+    margin-top: 20px;
+    
+    justify-content: center;
+}
+.man-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0.5em;
+    color: black;
+   
+}
+.add-btn  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px ;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(199, 247, 231);
+    border-radius: 15px;
+}
+.add-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+
+.add-btn:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.card{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid black;
+}
+.card li{
+    text-decoration: none;
+    background-color: azure;
+    list-style: none;
+
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(228, 201, 253);
+}
+.card li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(228, 199, 255);
+}
+.title-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form-c{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin-left: 400px;
+    align-self: center;
+    justify-self: center;
+    border:1px solid #dddddddd;
+    background: #ddd;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0000000f;
+   width: 350px;
+   margin-left: 470px;
+}
+form div{
+    margin: 10px;
+}
+.text-sm{
+    display: inherit;
+    padding: 10px;
+    font-size: 1.2rem;
+
+}
+form input{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+   
+    font-size: 1.1rem;
+    width: 300px;
+}
+form button{
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-error{
+    margin: 0;
+    font-size: .8rem;
+    color: red;
+}
+.container-show{
+    margin-top: 20px;
+    padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.imag-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 120px;
+    left: 70px;
+
+}
+.info-container{
+
+
+    position: fixed;
+    top: 120px;
+    left: 700px;
+}
+.btn-edit{
+    text-decoration: none;
+    color: green;
+    border: 1px solid green;
+    font-size: .8rem;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-btn{
+    color: rgb(148, 38, 38);
+    border: 1px solid rgb(148, 38, 38);
+    font-size: .8rem;
+    padding: 3px;
+    background: none;
+    cursor: pointer;
+     width: 95px;
+     background-color: white;
+}
+.del-form{
+   background-color: white;
+    margin: 5px 0 0 0;
+    padding: 0;
+    background: none;
+    border-radius: none;
+      width: 95px;
+    
+}
